@@ -22,7 +22,13 @@ a {
 	flex-wrap: wrap;
 	width: 280px;
 	margin: auto;
-	flex-direction: column;
+}
+
+h2 {
+	font-size: 5rem;
+	color: #e7e7e7;
+	line-height: 60px;
+	margin-top: 20px;
 }
 
 h4 {
@@ -32,8 +38,14 @@ h4 {
 	margin: auto;
 }
 
+h5 {
+	font-size: 2.3rem;
+	color: #c1c1c1;
+	font-weight: 700;
+}
+
 .header {
-	background-image: url(/surface/image/background-header);
+	background-image: url(/users/taliko/Desktop/Surface/image/background-header);
 	background-size: 100% auto;
 	background-color: #211271;
 	background-repeat: no-repeat;
@@ -43,7 +55,7 @@ h4 {
 	margin: 33px auto 0;
 	width: 133px;
 	height: 36px;
-	background-image: url(/surface/image/logo_header.svg)
+	background-image: url(/users/taliko/Desktop/Surface/image/logo_header.svg)
 }
 
 .be_recruited {
@@ -89,7 +101,7 @@ h4 {
 	width: 20px;
 	height: 24px;
 	background-repeat: no-repeat;
-	background-image: url(/surface/image/apple_logo.svg);
+	background-image: url(/users/taliko/Desktop/Surface/image/apple_logo.svg);
 }
 
 .google::before {
@@ -99,5 +111,87 @@ h4 {
 	width: 22px;
 	height: 24px;
 	background-repeat: no-repeat;
-	background-image: url(/surface/image/google-logo.svg);
+	background-image: url(/users/taliko/Desktop/Surface/image/google-logo.svg);
+}
+
+
+
+.athlets-header .content {
+	position: relative;
+	padding-bottom: 226px;
+}
+
+.footballer {
+	position: absolute;
+	top: 80px;
+	left: 50px;
+}
+
+.athlets-step-one {
+	background-color: #fafafa;
+	padding-top: 75px;
+}
+
+.step-heading {
+	display: flex;
+	align-items: center;
+}
+
+.connection::before {
+	content: "01";
+    font-size: 1.4rem;
+    color: #000000;
+    border-bottom: 4px solid #5e42b0;
+    font-weight: 700;
+    border-radius: 1.4px;
+    height: 18px;
+    width: 15px;
+    margin-right: 10px;
+}
+
+.text {
+	font-size: 1.5rem;
+	line-height: 1.8rem;
+	color: #000000;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	padding-right: 15px;
+}
+
+.athlets-step-two {
+	background-color: #f5f4f9;
+	padding-top: 52px;
+}
+
+.collaboration::before {
+	content: "02";
+    font-size: 1.4rem;
+    color: #000000;
+    border-bottom: 4px solid #5e42b0;
+    font-weight: 700;
+    border-radius: 1.4px;
+    height: 18px;
+    width: 15px;
+    margin-right: 10px;
+}
+
+.athlets-step-three {
+	background-color: #5e42b0;
+	padding-top: 52px;
+}
+
+.growth::before {
+	content: "03";
+    font-size: 1.4rem;
+    color: #000000;
+    border-bottom: 4px solid #ffffff;
+    font-weight: 700;
+    border-radius: 1.4px;
+    height: 18px;
+    width: 15px;
+    margin-right: 10px;
+}
+
+.growth + .text  {
+	color: #ffffff;
 }
