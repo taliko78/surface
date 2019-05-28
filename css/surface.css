@@ -45,7 +45,7 @@ h5 {
 }
 
 .header {
-	background-image: url(/users/taliko/Desktop/Surface/image/background-header);
+	background-image: url(/surface/image/background-header);
 	background-size: 100% auto;
 	background-color: #211271;
 	background-repeat: no-repeat;
@@ -55,7 +55,7 @@ h5 {
 	margin: 33px auto 0;
 	width: 133px;
 	height: 36px;
-	background-image: url(/users/taliko/Desktop/Surface/image/logo_header.svg)
+	background-image: url(/surface/image/logo_header.svg)
 }
 
 .be_recruited {
@@ -101,7 +101,7 @@ h5 {
 	width: 20px;
 	height: 24px;
 	background-repeat: no-repeat;
-	background-image: url(/users/taliko/Desktop/Surface/image/apple_logo.svg);
+	background-image: url(/surface/image/apple_logo.svg);
 }
 
 .google::before {
@@ -111,7 +111,7 @@ h5 {
 	width: 22px;
 	height: 24px;
 	background-repeat: no-repeat;
-	background-image: url(/users/taliko/Desktop/Surface/image/google-logo.svg);
+	background-image: url(/surface/image/google-logo.svg);
 }
 
 
