@@ -127,7 +127,7 @@ h5 {
 	left: 50px;
 }
 
-.athlets-step-one {
+.step-connection {
 	background-color: #fafafa;
 	padding-top: 75px;
 }
@@ -158,7 +158,7 @@ h5 {
 	padding-right: 15px;
 }
 
-.athlets-step-two {
+.step-collaboration {
 	background-color: #f5f4f9;
 	padding-top: 52px;
 }
@@ -175,7 +175,7 @@ h5 {
     margin-right: 10px;
 }
 
-.athlets-step-three {
+.step-growth {
 	background-color: #5e42b0;
 	padding-top: 52px;
 }
@@ -192,6 +192,122 @@ h5 {
     margin-right: 10px;
 }
 
-.growth + .text  {
+.step-growth .text  {
 	color: #ffffff;
+}
+
+
+.players-header {
+	position: relative;
+}
+
+h2.players-heading {
+	margin-top: 16px;
+	margin-bottom: 227px;
+}
+
+.basketballer {
+	position: absolute;
+	top: 80px;
+	left: 9px;
+}
+
+.step-growth-players {
+	background-color: #090c35;
+	padding-top: 52px;
+}
+
+.step-growth-players .text {
+	color: #ffffff;
+}
+
+.players-growth::before {
+	content: "03";
+    font-size: 1.4rem;
+    color: #8765dd;
+    border-bottom: 4px solid #ffffff;
+    font-weight: 700;
+    border-radius: 1.4px;
+    height: 18px;
+    width: 15px;
+    margin-right: 10px;
+}
+
+
+.be-active, .find-contact, .work-it {
+	display: flex;
+	flex-direction: column;
+}
+
+.be-active .content, .find-contact .content, 
+.work-it .content {
+	position: relative;
+}
+
+.be-active-photo img, .find-contact-photo img, 
+.work-it-photo img {
+	width: 100%;
+}
+
+.be-active h4, .find-contact h4, .work-it h4 {
+	margin: 28px 0 14px 0;
+	color: #e7e7e7;
+}
+
+.rectangle {
+	display: flex;
+	width: 70px;
+	height: 70px;
+	background-color: #5e42b0;
+
+	position: absolute;
+	top: -58px;
+}
+
+.description {
+	font-size: 1.6rem;
+	color: #000000;
+	line-height: 2rem;
+	margin-bottom: 70px;
+	padding-right: 20px;
+}
+
+.be-active .description {
+	padding-right: 35px;
+}
+
+.be-active .rectangle::before {
+	content: "01";
+    font-size: 1.4rem;
+    color: #ffffff;
+    border-bottom: 4px solid #8f7bc8;
+    font-weight: 700;
+    border-radius: 1.4px;
+    height: 18px;
+    width: 15px;
+    margin: auto;
+}
+
+.find-contact .rectangle::before {
+	content: "02";
+    font-size: 1.4rem;
+    color: #ffffff;
+    border-bottom: 4px solid #8f7bc8;
+    font-weight: 700;
+    border-radius: 1.4px;
+    height: 18px;
+    width: 15px;
+    margin: auto;
+}
+
+.work-it .rectangle::before {
+	content: "03";
+    font-size: 1.4rem;
+    color: #ffffff;
+    border-bottom: 4px solid #8f7bc8;
+    font-weight: 700;
+    border-radius: 1.4px;
+    height: 18px;
+    width: 15px;
+    margin: auto;
 }
