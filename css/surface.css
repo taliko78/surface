@@ -123,6 +123,7 @@ a {
 	color: #e7e7e7;
 	line-height: 60px;
 	margin-top: 20px;
+	text-transform: uppercase;
 }
 
 .footballer {
@@ -142,18 +143,23 @@ a {
 	font-size: 2.3rem;
 	color: #c1c1c1;
 	font-weight: 700;
+	text-transform: uppercase;
 }
 
-.connection::before {
-	content: "01";
-    font-size: 1.4rem;
+.number {
+	font-size: 1.4rem;
     color: #000000;
-    border-bottom: 4px solid #5e42b0;
     font-weight: 700;
-    border-radius: 1px;
-    height: 18px;
-    width: 15px;
     margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.number::after {
+	content: "";
+	background-image: url(/surface/image/line.png);
+	height: 4px;
+    width: 15px;
 }
 
 .text {
@@ -170,33 +176,13 @@ a {
 	padding-top: 52px;
 }
 
-.collaboration::before {
-	content: "02";
-    font-size: 1.4rem;
-    color: #000000;
-    border-bottom: 4px solid #5e42b0;
-    font-weight: 700;
-    border-radius: 1px;
-    height: 18px;
-    width: 15px;
-    margin-right: 10px;
-}
-
 .step-growth {
 	background-color: #5e42b0;
 	padding-top: 52px;
 }
 
-.growth::before {
-	content: "03";
-    font-size: 1.4rem;
-    color: #000000;
-    border-bottom: 4px solid #ffffff;
-    font-weight: 700;
-    border-radius: 1px;
-    height: 18px;
-    width: 15px;
-    margin-right: 10px;
+.growth .number::after {
+	background-image: url(/surface/image/white-line.png);
 }
 
 .step-growth .text  {
@@ -228,16 +214,12 @@ a {
 	color: #ffffff;
 }
 
-.players-growth::before {
-	content: "03";
-    font-size: 1.4rem;
-    color: #8765dd;
-    border-bottom: 4px solid #ffffff;
-    font-weight: 700;
-    border-radius: 1px;
-    height: 18px;
-    width: 15px;
-    margin-right: 10px;
+.violet-number {
+	color: #8765dd;
+}
+
+.violet-number::after {
+	background-image: url(/surface/image/white-line.png);
 }
 
 
@@ -260,6 +242,7 @@ a {
 	line-height: 3.4rem;
 	font-size: 2.8rem;
 	font-weight: 700;
+	text-transform: uppercase;
 }
 
 .rectangle {
@@ -270,6 +253,15 @@ a {
 
 	position: absolute;
 	top: -58px;
+}
+
+.rectangle .number {
+	color: #ffffff;
+	margin: auto;
+}
+
+.rectangle .number::after {
+	background-image: url(/surface/image/violet-line);
 }
 
 .description {
@@ -283,43 +275,6 @@ a {
 .be-active .description {
 	padding-right: 35px;
 }
-
-.be-active .rectangle::before {
-	content: "01";
-    font-size: 1.4rem;
-    color: #ffffff;
-    border-bottom: 4px solid #8f7bc8;
-    font-weight: 700;
-    border-radius: 1px;
-    height: 18px;
-    width: 15px;
-    margin: auto;
-}
-
-.find-contact .rectangle::before {
-	content: "02";
-    font-size: 1.4rem;
-    color: #ffffff;
-    border-bottom: 4px solid #8f7bc8;
-    font-weight: 700;
-    border-radius: 1px;
-    height: 18px;
-    width: 15px;
-    margin: auto;
-}
-
-.work-it .rectangle::before {
-	content: "03";
-    font-size: 1.4rem;
-    color: #ffffff;
-    border-bottom: 4px solid #8f7bc8;
-    font-weight: 700;
-    border-radius: 1px;
-    height: 18px;
-    width: 15px;
-    margin: auto;
-}
-
 
 
 .footer {
@@ -361,6 +316,7 @@ a {
 	font-weight: 700;
 	margin: auto;
 	color: #ffffff;
+	text-transform: uppercase;
 }
 
 .footer-subheading {
@@ -368,6 +324,7 @@ a {
 	color: #9b8ec1;
 	margin-right: auto;
 	margin-left: auto;
+	text-transform: uppercase;
 }
 
 .footer-buttons {
