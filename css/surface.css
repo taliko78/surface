@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url(/surface/fonts/);
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -24,37 +29,13 @@ a {
 	margin: auto;
 }
 
-h2 {
-	font-size: 5rem;
-	color: #e7e7e7;
-	line-height: 60px;
-	margin-top: 20px;
-}
-
-h3 {
-	font-size: 3.2rem;
-	font-weight: 700;
-	margin: auto;
-	color: #ffffff;
-}
-
-h4 {
-	font-size: 2.8rem;
-	color: #ffffff;
-	font-weight: 700;
-}
-
-h5 {
-	font-size: 2.3rem;
-	color: #c1c1c1;
-	font-weight: 700;
-}
-
 .header {
 	background-image: url(/surface/image/background-header);
-	background-size: 100% auto;
+	background-size: cover;
 	background-color: #211271;
 	background-repeat: no-repeat;
+	padding-top: 33px;
+	padding-bottom: 64px;
 }
 
 .logo {
@@ -64,17 +45,25 @@ h5 {
 }
 
 .header .logo {
-	margin: 33px auto 137px;
+	margin: 0 auto 137px;
 }
 
 .header-text {
-	line-height: 31.3px;
+	line-height: 31px;
+	font-size: 2.8rem;
+	text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
 }
 
-.college_sport {
+.college-sport {
+	display: block;
 	margin-left: 43px;
 	margin-top: 31px;
-	margin-bottom: 90px;
+}
+
+.header-buttons {
+	margin: 90px auto 0;
 }
 
 .store_button {
@@ -90,14 +79,16 @@ h5 {
 	color: #ffffff;
 	font-size: 0.8rem;
 	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.store-name {
+	font-weight: 700;
+	display: block;
 }
 
 .apple {
 	margin-bottom: 14px;
-}
-
-.header .google {
-	margin-bottom: 64px;
 }
 
 .apple::before {
@@ -127,6 +118,13 @@ h5 {
 	padding-bottom: 226px;
 }
 
+.heading {
+	font-size: 5rem;
+	color: #e7e7e7;
+	line-height: 60px;
+	margin-top: 20px;
+}
+
 .footballer {
 	position: absolute;
 	top: 80px;
@@ -141,6 +139,9 @@ h5 {
 .step-heading {
 	display: flex;
 	align-items: center;
+	font-size: 2.3rem;
+	color: #c1c1c1;
+	font-weight: 700;
 }
 
 .connection::before {
@@ -149,7 +150,7 @@ h5 {
     color: #000000;
     border-bottom: 4px solid #5e42b0;
     font-weight: 700;
-    border-radius: 1.4px;
+    border-radius: 1px;
     height: 18px;
     width: 15px;
     margin-right: 10px;
@@ -175,7 +176,7 @@ h5 {
     color: #000000;
     border-bottom: 4px solid #5e42b0;
     font-weight: 700;
-    border-radius: 1.4px;
+    border-radius: 1px;
     height: 18px;
     width: 15px;
     margin-right: 10px;
@@ -192,7 +193,7 @@ h5 {
     color: #000000;
     border-bottom: 4px solid #ffffff;
     font-weight: 700;
-    border-radius: 1.4px;
+    border-radius: 1px;
     height: 18px;
     width: 15px;
     margin-right: 10px;
@@ -203,11 +204,11 @@ h5 {
 }
 
 
-.players-header {
+.players-header .content {
 	position: relative;
 }
 
-h2.players-heading {
+.players .heading {
 	margin-top: 16px;
 	margin-bottom: 227px;
 }
@@ -215,7 +216,7 @@ h2.players-heading {
 .basketballer {
 	position: absolute;
 	top: 80px;
-	left: 9px;
+	left: -11px;
 }
 
 .step-growth-players {
@@ -233,7 +234,7 @@ h2.players-heading {
     color: #8765dd;
     border-bottom: 4px solid #ffffff;
     font-weight: 700;
-    border-radius: 1.4px;
+    border-radius: 1px;
     height: 18px;
     width: 15px;
     margin-right: 10px;
@@ -253,10 +254,12 @@ h2.players-heading {
 	width: 100%;
 }
 
-.opportunities h4 {
+.opportunities-heading {
 	margin: 30px 0 14px 0;
 	color: #e7e7e7;
 	line-height: 3.4rem;
+	font-size: 2.8rem;
+	font-weight: 700;
 }
 
 .rectangle {
@@ -287,7 +290,7 @@ h2.players-heading {
     color: #ffffff;
     border-bottom: 4px solid #8f7bc8;
     font-weight: 700;
-    border-radius: 1.4px;
+    border-radius: 1px;
     height: 18px;
     width: 15px;
     margin: auto;
@@ -299,7 +302,7 @@ h2.players-heading {
     color: #ffffff;
     border-bottom: 4px solid #8f7bc8;
     font-weight: 700;
-    border-radius: 1.4px;
+    border-radius: 1px;
     height: 18px;
     width: 15px;
     margin: auto;
@@ -311,7 +314,7 @@ h2.players-heading {
     color: #ffffff;
     border-bottom: 4px solid #8f7bc8;
     font-weight: 700;
-    border-radius: 1.4px;
+    border-radius: 1px;
     height: 18px;
     width: 15px;
     margin: auto;
@@ -321,9 +324,11 @@ h2.players-heading {
 
 .footer {
 	background-image: url(/surface/image/background-footer.jpg);
-	background-size: 100% auto;
+	background-size: cover;
     background-color: #211271;
-    background-repeat: no-repeat;;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 10px;
 }
 
 .footer .content {
@@ -333,7 +338,9 @@ h2.players-heading {
 .app-logo {
 	width: 72px;
 	height: 74px;
-	margin: 100px auto 55px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 55px;
 	background: linear-gradient(to bottom, #7655d6, #51379b);
 	border-radius: 20px;
  	display: flex;
@@ -349,12 +356,25 @@ h2.players-heading {
     margin: auto;
 }
 
-.footer-subheader {
+.footer-heading {
+	font-size: 3.2rem;
+	font-weight: 700;
+	margin: auto;
+	color: #ffffff;
+}
+
+.footer-subheading {
 	font-size: 1.4rem;
 	color: #9b8ec1;
-	margin: 0px auto 65px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.footer-buttons {
+	margin: 65px auto 82px;
 }
 
 .footer .logo {
-	margin: 82px auto 10px;
+	margin-right: auto;
+	margin-left: auto;
 }
