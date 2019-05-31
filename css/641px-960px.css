@@ -1,0 +1,225 @@
+@media (min-width: 641px) and (max-width: 960px) {
+
+	.content {
+		width: 708px;
+		flex-direction: column;
+	}
+
+	.header {
+		background-image: url(/users/taliko/Desktop/Surface/image/bkg-header-768.jpg);
+		padding-top: 40px;
+		padding-bottom: 90px;
+	}
+
+	.logo {
+		width: 205px;
+		height: 56px;
+	}
+
+	.header .logo {
+		margin-bottom: 155px;
+	}
+
+	.header-text {
+		font-size: 6.4rem;
+		line-height: normal;
+		margin-left: 55px;
+	}
+
+	.college-sport {
+		display: block;
+		line-height: 125%;
+		margin-left: 162px;
+		margin-top: 0;
+	}
+
+	.header-buttons {
+		display: flex;
+		flex-direction: row;
+
+		margin-top: 295px;
+	}
+
+	.store_button {
+		width: 310px;
+		height: 77px;
+
+		border-radius: 50px;
+		font-size: 1.4rem;
+	}
+
+	.apple {
+		margin-bottom: 0;
+		margin-right: 30px;
+	}
+
+	.apple::before {
+		margin-right: 27px;
+		margin-left: 40px;
+		width: 36px;
+		height: 42px;
+	}
+
+	.google::before {
+		margin-right: 28px;
+		margin-left: 57px;
+		background-position: center;
+		width: 41px;
+		height: 45px;
+	}
+
+
+	.athlets .content {
+		padding-left: 260px;
+	}
+
+	.athlets-header .content {
+		padding-top: 80px;
+		padding-bottom: 50px;
+	}
+
+	.heading {
+		font-size: 8rem;
+		margin-top: 0px;
+	}
+
+	.footballer {
+		top: 94px;
+		left: -190px;
+	}
+
+	.step-connection {
+		background-color: #ffffff;
+		padding-top: 0;
+	}
+
+	.step-heading {
+		font-size: 3.2rem;
+	}
+
+	.number {
+		font-size: 1.8rem;
+	}
+
+	.number::after {
+		background-image: url(/users/taliko/Desktop/Surface/image/line-768.png);
+		height: 5px;
+	    width: 19px;
+	}
+
+	.growth .number::after {
+		width: 21px;
+		background-image: url(/users/taliko/Desktop/Surface/image/white-line-768.png);
+	}
+
+	.violet-number::after {
+		width: 21px;
+		background-image: url(/users/taliko/Desktop/Surface/image/white-line-768.png);
+	}
+
+	.rectangle .number::after {
+		width: 25px;
+		background-image: url(/users/taliko/Desktop/Surface/image/violet-line-768.png);
+	}
+
+	.text {
+		font-size: 1.6rem;
+		line-height: 2.8rem;
+		margin-top: 14px;
+		margin-bottom: 33px;
+		padding-right: 46px;
+	}
+
+	.step-collaboration, .step-growth {
+		padding-top: 40px;
+	}
+
+
+	.basketballer {
+		position: absolute;
+		top: 39px;
+		left: auto;
+		right: 0px;
+	}
+
+.players-header .content {
+	position: static;
+}
+
+.players-header {
+	position: relative;
+}
+
+.players .heading {
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+
+.players .text {
+	width: 415px;
+}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
