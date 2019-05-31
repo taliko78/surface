@@ -6,7 +6,7 @@
 	}
 
 	.header {
-		background-image: url(/users/taliko/Desktop/Surface/image/bkg-header-768.jpg);
+		background-image: url(/surface/image/bkg-header-768.jpg);
 		padding-top: 40px;
 		padding-bottom: 90px;
 	}
@@ -102,24 +102,24 @@
 	}
 
 	.number::after {
-		background-image: url(/users/taliko/Desktop/Surface/image/line-768.png);
+		background-image: url(/surface/image/line-768.png);
 		height: 5px;
 	    width: 19px;
 	}
 
 	.growth .number::after {
 		width: 21px;
-		background-image: url(/users/taliko/Desktop/Surface/image/white-line-768.png);
+		background-image: url(/surface/image/white-line-768.png);
 	}
 
 	.violet-number::after {
 		width: 21px;
-		background-image: url(/users/taliko/Desktop/Surface/image/white-line-768.png);
+		background-image: url(/surface/image/white-line-768.png);
 	}
 
 	.rectangle .number::after {
 		width: 25px;
-		background-image: url(/users/taliko/Desktop/Surface/image/violet-line-768.png);
+		background-image: url(/surface/image/violet-line-768.png);
 	}
 
 	.text {
