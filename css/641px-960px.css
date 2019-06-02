@@ -1,7 +1,8 @@
 @media (min-width: 641px) and (max-width: 960px) {
 
 	.content {
-		width: 708px;
+		width: auto;
+		max-width: 708px;
 		flex-direction: column;
 	}
 
