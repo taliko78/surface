@@ -1,9 +1,7 @@
 @media (min-width: 641px) and (max-width: 960px) {
 
 	.content {
-		width: auto;
 		max-width: 708px;
-		flex-direction: column;
 	}
 
 	.header {
@@ -28,45 +26,17 @@
 	}
 
 	.college-sport {
-		display: block;
 		line-height: 125%;
 		margin-left: 162px;
 		margin-top: 0;
 	}
 
 	.header-buttons {
-		display: flex;
-		flex-direction: row;
-
 		margin-top: 295px;
 	}
 
-	.store_button {
-		width: 310px;
-		height: 77px;
-
-		border-radius: 50px;
-		font-size: 1.4rem;
-	}
-
 	.apple {
-		margin-bottom: 0;
 		margin-right: 30px;
-	}
-
-	.apple::before {
-		margin-right: 27px;
-		margin-left: 40px;
-		width: 36px;
-		height: 42px;
-	}
-
-	.google::before {
-		margin-right: 28px;
-		margin-left: 57px;
-		background-position: center;
-		width: 41px;
-		height: 45px;
 	}
 
 
@@ -79,48 +49,13 @@
 		padding-bottom: 50px;
 	}
 
-	.heading {
-		font-size: 8rem;
-		margin-top: 0px;
-	}
-
 	.footballer {
 		top: 94px;
 		left: -190px;
 	}
 
-	.step-connection {
-		background-color: #ffffff;
-		padding-top: 0;
-	}
-
 	.step-heading {
 		font-size: 3.2rem;
-	}
-
-	.number {
-		font-size: 1.8rem;
-	}
-
-	.number::after {
-		background-image: url(/surface/image/line-768.png);
-		height: 5px;
-	    width: 19px;
-	}
-
-	.growth .number::after {
-		width: 21px;
-		background-image: url(/surface/image/white-line-768.png);
-	}
-
-	.violet-number::after {
-		width: 21px;
-		background-image: url(/surface/image/white-line-768.png);
-	}
-
-	.rectangle .number::after {
-		width: 25px;
-		background-image: url(/surface/image/violet-line-768.png);
 	}
 
 	.text {
@@ -137,19 +72,9 @@
 
 
 	.basketballer {
-		position: absolute;
 		top: 39px;
-		left: auto;
 		right: 0px;
 	}
-
-.players-header .content {
-	position: static;
-}
-
-.players-header {
-	position: relative;
-}
 
 .players .heading {
 	margin-top: 80px;
@@ -159,8 +84,6 @@
 .players .text {
 	width: 415px;
 }
-	
-	
 
 .rectangle {
 	width: 116px;
@@ -169,20 +92,12 @@
 	top: -80px;
 }
 
-.rectangle .number {
-	font-size: 2.4rem;
-}
-
 .opportunities-heading {
 	margin-top: 85px;
 	margin-bottom: 30px;
-	line-height: 6rem;
-	font-size: 8rem;
 }
 
 .description {
-	font-size: 2.4rem;
-	line-height: 2.8rem;
 	margin-bottom: 90px;
 	padding-right: 95px;
 }
@@ -198,22 +113,9 @@
     padding-bottom: 24px;
 }
 
-.app-logo {
-	width: 130px;
-	height: 137px;
-	margin-bottom: 70px;
-	border-radius: 35px;
-}
-
 .app-logo::before {
 	height: 85px;
 	width: 100px;
-}
-
-.footer-heading {
-	font-size: 8rem;
-	line-height: 6rem;
-	margin-bottom: 14px;
 }
 
 .footer-subheading {
@@ -224,5 +126,6 @@
 .footer-buttons {
 	display: flex;
 	margin: 280px auto 55px;
-}	
+}
+
 }
