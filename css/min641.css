@@ -1,0 +1,163 @@
+@media (min-width: 641px) {
+
+	.content {
+		width: auto;
+		flex-direction: column;
+	}
+
+	.header-buttons {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.store_button {
+		width: 310px;
+		height: 77px;
+
+		border-radius: 50px;
+		font-size: 1.4rem;
+	}
+
+	.apple {
+		margin-bottom: 0;
+	}
+
+	.apple::before {
+		margin-right: 27px;
+		margin-left: 40px;
+		width: 36px;
+		height: 42px;
+	}
+
+	.google::before {
+		margin-right: 28px;
+		margin-left: 57px;
+		background-position: center;
+		width: 41px;
+		height: 45px;
+	}
+
+	.heading {
+		font-size: 8rem;
+		margin-top: 0px;
+	}
+
+	.step-connection {
+		background-color: #ffffff;
+		padding-top: 0;
+	}
+
+	.number {
+		font-size: 1.8rem;
+	}
+
+	.number::after {
+		background-image: url(/users/taliko/Desktop/Surface/image/line-768.png);
+		height: 5px;
+	    width: 19px;
+	}
+
+	.growth .number::after {
+		width: 21px;
+		background-image: url(/users/taliko/Desktop/Surface/image/white-line-768.png);
+	}
+
+	.violet-number::after {
+		width: 21px;
+		background-image: url(/users/taliko/Desktop/Surface/image/white-line-768.png);
+	}
+
+	.rectangle .number::after {
+		width: 25px;
+		background-image: url(/users/taliko/Desktop/Surface/image/violet-line-768.png);
+	}
+
+	.basketballer {
+		position: absolute;
+		left: auto;
+	}
+
+	.players-header .content {
+		position: static;
+	}
+
+	.players-header {
+		position: relative;
+	}
+
+.rectangle .number {
+	font-size: 2.4rem;
+}
+
+.opportunities-heading {
+	line-height: 6rem;
+	font-size: 8rem;
+}
+
+.description {
+	font-size: 2.4rem;
+	line-height: 2.8rem;
+}
+
+.app-logo {
+	width: 130px;
+	height: 137px;
+	margin-bottom: 70px;
+	border-radius: 35px;
+}
+
+.footer-heading {
+	font-size: 8rem;
+	line-height: 6rem;
+	margin-bottom: 14px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
