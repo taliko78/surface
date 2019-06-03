@@ -117,6 +117,10 @@
 	height: 85px;
 	width: 100px;
 }
+	
+.footer-heading {
+	line-height: normal;
+}
 
 .footer-subheading {
 	font-size: 3.6rem;
