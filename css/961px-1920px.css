@@ -1,0 +1,258 @@
+@media (min-width: 961px) {
+
+	.content {
+		max-width: 1560px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.header {
+		background-image: url(/users/taliko/Desktop/Surface/image/bkg-header-961.jpg);
+		padding-top: 45px;
+		padding-bottom: 110px;
+	}
+
+	.logo {
+		width: 191px;
+		height: 52px;
+	}
+
+	.header .logo {
+		margin-bottom: 280px;
+	}
+
+	.header-text {
+		font-size: 9rem;
+		line-height: 3.1rem;
+		margin-left: 13px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.college-sport {
+		line-height: 10rem;
+		margin-left: auto;
+		margin-top: 30px;
+	}
+
+	.header-buttons {
+		margin-top: 220px;
+	}
+
+	.apple {
+		margin-right: 50px;
+	}
+
+
+	.athlets .content {
+		padding-left: 830px;
+	}
+
+	.athlets-header .content {
+		padding-top: 110px;
+		padding-bottom: 100px;
+	}
+
+
+	.footballer {
+		top: 27px;
+		left: 212px;
+	}
+
+	.step-heading {
+		font-size: 3.6rem;
+	}
+
+	.number {
+		line-height: 3rem;
+	}
+
+	.text {
+		font-size: 2rem;
+		line-height: normal;
+		margin-top: 30px;
+		margin-bottom: 54px;
+		padding-right: 55px;
+	}
+
+	.step-collaboration, .step-growth {
+		padding-top: 45px;
+	}
+
+
+	.basketballer {
+		position: absolute;
+		top: 23px;
+		left: auto;
+		right: -55px;
+	}
+
+.players {
+	overflow: hidden;
+}
+
+.players .heading {
+	margin-top: 118px;
+	margin-bottom: 100px;
+}
+
+.players .text {
+	width: 730px;
+}
+
+.rectangle {
+	width: 168px;
+	height: 155px;
+
+	top: 211px;
+	left: -84px;
+}
+
+.opportunities {
+	flex-direction: row;
+}
+
+.opportunities-photo {
+	width: 50%;
+}
+
+.opportunities .content {
+	width: 50%;
+	margin: 0;
+	padding-left: 130px;
+}
+
+.opportunities-heading {
+	margin-top: 260px;
+	margin-bottom: 110px;
+}
+
+.description {
+	margin-bottom: 0;
+	padding-right: 180px;
+}
+
+.be-active .description {
+	padding-right: 240px;
+}
+
+.find-contact .content {
+	padding-left: 193px;
+}
+
+.find-contact .rectangle {
+	right: -84px;
+	left: auto;
+}
+
+.find-contact .opportunities-photo {
+	order: 1;
+}
+
+.find-contact .opportunities-heading {
+	margin-bottom: 75px;
+}
+
+
+.footer .content {
+	flex-direction: 
+}
+
+.footer {
+	margin-top: -3px;
+	background-image: url(/users/taliko/Desktop/Surface/image/bkg-footer-961.jpg);
+    padding-top: 250px;
+    padding-bottom: 52px;
+}
+
+.app-logo {
+	position: absolute;
+	top: -22px;
+	left: -168px;
+}
+
+.app-logo::before {
+	height: 85px;
+	width: 100px;
+}
+
+.footer-heading {
+	position: relative;
+	margin-left: 514px;
+}
+
+.footer-subheading {
+	font-size: 3rem;
+	line-height: 3.4rem;
+	margin-left: 514px;
+}
+
+.footer-buttons {
+	display: flex;
+	margin: 207px auto 262px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
