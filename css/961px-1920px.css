@@ -23,16 +23,17 @@
 
 	.header-text {
 		font-size: 9rem;
-		line-height: 3.1rem;
+		line-height: 34%;
 		margin-left: 13px;
 		display: flex;
 		flex-direction: column;
 	}
 
 	.college-sport {
-		line-height: 10rem;
+		line-height: 111%;
 		margin-left: auto;
 		margin-top: 30px;
+		padding-right: 13px;
 	}
 
 	.header-buttons {
