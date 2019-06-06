@@ -46,7 +46,7 @@
 
 
 	.athlets .content {
-		padding-left: 830px;
+		padding-left: 45%;
 	}
 
 	.athlets-header .content {
@@ -57,7 +57,8 @@
 
 	.footballer {
 		top: 27px;
-		left: 212px;
+		left: auto;
+		right: 56%;
 	}
 
 	.step-heading {
@@ -84,12 +85,15 @@
 	.basketballer {
 		position: absolute;
 		top: 23px;
-		left: auto;
-		right: -55px;
+		left: 42%;
 	}
 
 .players {
 	overflow: hidden;
+}
+
+.players .content {
+    padding-left: 20px;
 }
 
 .players .heading {
@@ -120,7 +124,7 @@
 .opportunities .content {
 	width: 50%;
 	margin: 0;
-	padding-left: 130px;
+	padding-left: 7%;
 	justify-content: center;
 }
 
@@ -131,15 +135,18 @@
 
 .description {
 	margin-bottom: 0;
-	padding-right: 180px;
+	padding-right: 0;
+	max-width: 580px;
 }
 
 .be-active .description {
-	padding-right: 240px;
+	padding-right: 0;
 }
 
 .find-contact .content {
-	padding-left: 193px;
+	padding-left: 10px;
+	padding-right: 10%;
+	align-content: flex-end;
 }
 
 .find-contact .rectangle {
@@ -169,7 +176,7 @@
 
 .app-logo {
 	position: absolute;
-	top: -22px;
+	top: 23px;
 	left: -168px;
 }
 
@@ -180,14 +187,15 @@
 
 .footer-heading {
 	position: relative;
-	margin-left: 514px;
-	line-height: 6rem;
+	margin-left: 33%;
+	margin-bottom: 0;
+	line-height: normal;
 }
 
 .footer-subheading {
 	font-size: 3rem;
 	line-height: 3.4rem;
-	margin-left: 514px;
+	margin-left: 33%;
 }
 
 .footer-buttons {
