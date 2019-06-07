@@ -76,6 +76,10 @@
 		right: 0px;
 	}
 
+.players .content {
+        padding-left: 10px;
+}
+
 .players .heading {
 	margin-top: 80px;
 	margin-bottom: 50px;
